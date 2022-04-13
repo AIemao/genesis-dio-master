@@ -39,7 +39,7 @@ Desafio de Projeto - Game Genius
 
 ### O que eu aprendi
 
-``let shuffleOrder = () => {
+let shuffleOrder = () => {
     let colorOrder = Math.floor(Math.random() * 4);
     order[order.length] = colorOrder;
     clickedOrder = [];
@@ -48,7 +48,7 @@ Desafio de Projeto - Game Genius
         let elementColor = createColorElement(order[i]);
         lightColor(elementColor, Number(i) + 1);
     }
-}``
+}
 
 Função de ordem aleatoria de cores
 
